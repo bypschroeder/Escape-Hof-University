@@ -94,7 +94,7 @@ PrefabInstance:
     - target: {fileID: -1439730007547781893, guid: fbdd7989b10152b429f2ba38b66b3305, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 649881e2e3d4048459d38877747d9d2c, type: 2}
+      objectReference: {fileID: 2100000, guid: 8b8b110af6857c54d9a593a92d2f8893, type: 2}
     - target: {fileID: 919132149155446097, guid: fbdd7989b10152b429f2ba38b66b3305, type: 3}
       propertyPath: m_Name
       value: stool
@@ -102,15 +102,15 @@ PrefabInstance:
     - target: {fileID: 1129496810705857465, guid: fbdd7989b10152b429f2ba38b66b3305, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 649881e2e3d4048459d38877747d9d2c, type: 2}
+      objectReference: {fileID: 2100000, guid: 8b8b110af6857c54d9a593a92d2f8893, type: 2}
     - target: {fileID: 7071182760956848314, guid: fbdd7989b10152b429f2ba38b66b3305, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a19628a5041dd1649b67fea4725ddaa6, type: 2}
+      objectReference: {fileID: 2100000, guid: 7b26462b4c7ab964cb4eecfb09b4a771, type: 2}
     - target: {fileID: 7202271454713460447, guid: fbdd7989b10152b429f2ba38b66b3305, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a19628a5041dd1649b67fea4725ddaa6, type: 2}
+      objectReference: {fileID: 2100000, guid: 7b26462b4c7ab964cb4eecfb09b4a771, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbdd7989b10152b429f2ba38b66b3305, type: 3}
 --- !u!1 &526252216342102044 stripped
