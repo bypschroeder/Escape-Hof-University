@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using TMPro;
 
 public class KeypadController : MonoBehaviour
 {
     public TextMeshPro inputField;
     public string password;
+    public UnityEvent onCorrectCode;
     private GameObject[] buttons;
     public AudioSource correctSound;
     public AudioSource incorrectSound;
@@ -30,6 +32,7 @@ public class KeypadController : MonoBehaviour
                 if (script != null) script.enabled = false;
             }
             correctSound.Play();
+            onCorrectCode.Invoke();
         }
         else
         {
