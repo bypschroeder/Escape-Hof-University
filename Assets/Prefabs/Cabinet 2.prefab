@@ -281,7 +281,7 @@ MonoBehaviour:
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
   handFollowTransform: 1
-  highlightOnHover: 1
+  highlightOnHover: 0
   hideHighlight: []
   hoverPriority: 0
 --- !u!114 &2684688514049809401
@@ -976,7 +976,7 @@ MonoBehaviour:
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
   handFollowTransform: 1
-  highlightOnHover: 1
+  highlightOnHover: 0
   hideHighlight: []
   hoverPriority: 0
 --- !u!114 &818761106420977746
@@ -1138,7 +1138,7 @@ GameObject:
   - component: {fileID: 5228220346585526674}
   - component: {fileID: 4089939850843062911}
   - component: {fileID: 9107521803638315400}
-  - component: {fileID: 4697165163624920665}
+  - component: {fileID: 6057896733327934521}
   m_Layer: 0
   m_Name: Cabinet
   m_TagString: Untagged
@@ -1211,8 +1211,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4697165163624920665
-BoxCollider:
+--- !u!64 &6057896733327934521
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1221,6 +1221,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.4487122, y: 2.399649, z: 0.62319696}
-  m_Center: {x: 0, y: 0.5767237, z: -0.07305565}
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1053093794917909690, guid: 4fc4799649f42e041a1448eae80d65ea, type: 3}
