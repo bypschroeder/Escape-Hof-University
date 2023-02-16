@@ -14,7 +14,7 @@ public class KeypadController : MonoBehaviour
     public AudioSource incorrectSound;
 
     void Start() {
-        buttons = GameObject.FindGameObjectsWithTag("KeypadButton");
+        buttons = GameObject.FindGameObjectsWithTag("KeypadButtonTelefon");
     }
 
     void Update() {
