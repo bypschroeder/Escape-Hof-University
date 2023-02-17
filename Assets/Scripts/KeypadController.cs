@@ -12,9 +12,10 @@ public class KeypadController : MonoBehaviour
     private GameObject[] buttons;
     public AudioSource correctSound;
     public AudioSource incorrectSound;
+    public string buttonTag;
 
     void Start() {
-        buttons = GameObject.FindGameObjectsWithTag("KeypadButtonTelefon");
+        buttons = GameObject.FindGameObjectsWithTag(buttonTag);
     }
 
     void Update() {

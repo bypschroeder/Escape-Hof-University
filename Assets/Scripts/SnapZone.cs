@@ -6,6 +6,7 @@ using Valve.VR.InteractionSystem;
 public class SnapZone : MonoBehaviour
 {
     public GameObject snapObject;
+    public GameObject snapObjectCollider;
     public GameObject snapZoneObject;
 
     [HideInInspector]
@@ -13,11 +14,14 @@ public class SnapZone : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        snapObject.transform.position = snapZoneObject.transform.position;
-        snapObject.transform.rotation = snapZoneObject.transform.rotation;
-        snapObject.GetComponent<Rigidbody>().isKinematic = true;
-        snapZoneObject.SetActive(false);
-        isSnapped = true;
+        if (other.gameObject == snapObjectCollider && !isSnapped)
+        {
+            snapObject.transform.position = snapZoneObject.transform.position;
+            snapObject.transform.rotation = snapZoneObject.transform.rotation;
+            snapObject.GetComponent<Rigidbody>().isKinematic = true;
+            snapZoneObject.SetActive(false);
+            isSnapped = true;
+        }
     }
 
     private void Update() {

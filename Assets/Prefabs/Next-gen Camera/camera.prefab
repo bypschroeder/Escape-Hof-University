@@ -212,6 +212,7 @@ GameObject:
   - component: {fileID: 434320}
   - component: {fileID: 3307978}
   - component: {fileID: 2323278}
+  - component: {fileID: 7241806745896387202}
   m_Layer: 0
   m_Name: camera
   m_TagString: Untagged
@@ -284,6 +285,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7241806745896387202
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193790}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.12933168, y: 0.097548366, z: 0.11385667}
+  m_Center: {x: 0.011826865, y: 0.048416823, z: 0.01430323}
 --- !u!1 &196306
 GameObject:
   m_ObjectHideFlags: 0
